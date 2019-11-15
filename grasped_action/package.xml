@@ -1,0 +1,25 @@
+<package>
+  <name>grasped_action</name>
+  <version>0.0.1</version>
+  <description>Setting graspedFlag</description>
+  <maintainer email="szymonj955@wp.pl">Szymon Jarocki</maintainer>
+
+  <license>BSD</license>
+
+  <author>Szymon Jarocki</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rtt</build_depend>
+  <build_depend>ocl</build_depend>
+  <build_depend>rtt_ros</build_depend>
+  <build_depend>rtt_rosclock</build_depend>
+  <build_depend>rtt_actionlib</build_depend>
+  <build_depend>grasped_action_msgs</build_depend>
+
+  <run_depend>rtt</run_depend>
+  <run_depend>ocl</run_depend>
+  <run_depend>rtt_ros</run_depend>
+  <run_depend>grasped_action_msgs</run_depend>
+
+</package>

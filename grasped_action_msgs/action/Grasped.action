@@ -1,0 +1,11 @@
+int32 action
+
+int32 ACTION_OBJECT_GRASPED = 1
+int32 ACTION_NOTHING_GRASPED = 2
+---
+int32 error_code
+
+int32 SUCCESSFUL = 0
+int32 ERROR = -1
+---
+
